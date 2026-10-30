@@ -1,0 +1,147 @@
+{
+ "generator": "tools/grammar-gen/gen.py",
+ "kws": {
+  "keywords": [
+   "stop"
+  ],
+  "lines": {
+   "kws-gigaspeech-3.3M-chunk-16": [
+    "▁ST O P @stop"
+   ],
+   "kws-zh-en-3M-chunk-8": [
+    "S T AA1 P @stop"
+   ]
+  }
+ },
+ "languages": {
+  "en": {
+   "ctc": null,
+   "kws_keywords": [
+    "stop"
+   ],
+   "name": "English",
+   "provisional": false,
+   "rule_vocabulary": true,
+   "stop_lane": [
+    "stop"
+   ],
+   "vosk": {
+    "fillers": 291,
+    "grammar": "grammar/vosk_en.json",
+    "grammar_sha256": "f4a69eb5ef66f38bbac3773ddd979fe5097d3ce9c8bdac5cc2fefc949c42c0de",
+    "model": "vosk-model-small-en-in-0.4",
+    "phrases": 3593,
+    "stop_grammar": "grammar/stop_en.json",
+    "stop_grammar_sha256": "2e515d0366c5799a0839fb69d0076892906041d6b9a0e7eea8a001a7c8605a25",
+    "stop_phrases": 601
+   }
+  },
+  "hi": {
+   "ctc": null,
+   "kws_keywords": [
+    "stop"
+   ],
+   "name": "Hindi",
+   "provisional": false,
+   "rule_vocabulary": true,
+   "stop_lane": [
+    "रुको",
+    "रुक जाओ",
+    "स्टॉप"
+   ],
+   "vosk": {
+    "fillers": 298,
+    "grammar": "grammar/vosk_hi.json",
+    "grammar_sha256": "4ee9177a16fdf0b59feb5dac7e1c772e4d3821ab0db08f9536660112699500df",
+    "model": "vosk-model-small-hi-0.22",
+    "phrases": 5668,
+    "stop_grammar": "grammar/stop_hi.json",
+    "stop_grammar_sha256": "3c6a83a9c1aed017079d1b8f052b29e290f02c8bdcef03b5d1ba5a5ef503facc",
+    "stop_phrases": 592
+   }
+  },
+  "kn": {
+   "ctc": {
+    "lexicon": "grammar/ctc_lexicon_kn.json",
+    "lexicon_sha256": "807f0833fd4e09c8cabfed26b47d0c5c2b2f2b2f0004a29ef7a6146c1d869615"
+   },
+   "kws_keywords": [
+    "stop"
+   ],
+   "name": "Kannada",
+   "provisional": true,
+   "rule_vocabulary": false,
+   "stop_lane": [
+    "ನಿಲ್ಲು",
+    "ನಿಲ್ಲಿಸು",
+    "ಸ್ಟಾಪ್"
+   ],
+   "vosk": null
+  },
+  "ml": {
+   "ctc": {
+    "lexicon": "grammar/ctc_lexicon_ml.json",
+    "lexicon_sha256": "f79f6174dacf0726d02100113e4bfc49d223ded354a4973f1d0753258890ad0f"
+   },
+   "kws_keywords": [
+    "stop"
+   ],
+   "name": "Malayalam",
+   "provisional": true,
+   "rule_vocabulary": false,
+   "stop_lane": [
+    "നിർത്തൂ",
+    "നിൽക്കൂ",
+    "സ്റ്റോപ്പ്"
+   ],
+   "vosk": null
+  },
+  "ta": {
+   "ctc": {
+    "lexicon": "grammar/ctc_lexicon_ta.json",
+    "lexicon_sha256": "8ec6cee8cadfd34ac0e1eab2bf184ce2e4165d13b75caf4262f794c420d176ef"
+   },
+   "kws_keywords": [
+    "stop"
+   ],
+   "name": "Tamil",
+   "provisional": true,
+   "rule_vocabulary": false,
+   "stop_lane": [
+    "நில்",
+    "நிறுத்து",
+    "ஸ்டாப்"
+   ],
+   "vosk": null
+  },
+  "te": {
+   "ctc": {
+    "lexicon": "grammar/ctc_lexicon_te.json",
+    "lexicon_sha256": "daeedc2199b943dd34522bd72f703f70115c05dbbf671e2ac31f231927ec5521"
+   },
+   "kws_keywords": [
+    "stop"
+   ],
+   "name": "Telugu",
+   "provisional": false,
+   "rule_vocabulary": true,
+   "stop_lane": [
+    "ఆపు",
+    "ఆగు",
+    "స్టాప్"
+   ],
+   "vosk": {
+    "fillers": 296,
+    "grammar": "grammar/vosk_te.json",
+    "grammar_sha256": "fcebd7a8a88ee97bca039288363019f6c55c0451662c0e60133347f8c07f5cb2",
+    "model": "vosk-model-small-te-0.42",
+    "phrases": 5803,
+    "stop_grammar": "grammar/stop_te.json",
+    "stop_grammar_sha256": "c9833867c83968d02109e3bf03156876cae2749f167ca1c50ecbcfefe93bb2b6",
+    "stop_phrases": 520
+   }
+  }
+ },
+ "source_sha256": "d2acaa59f6ea5bfadf32bc19ade52049b64ea1e57879afa9b0fe05e8cf920176",
+ "version": 1
+}
